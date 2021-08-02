@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#main{
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+    background-color: aqua;
+}
+
+#main div{
+    position: absolute;
+}
+
+
+#logo{
+    width: 150px;
+    height: 150px;
+    background-image: url("img/logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -200px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    animation-name: logo;
+    animation-duration: 3s;
+    /* animation-timing-function: linear; */
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes logo{
+    from{
+        top: -200px;
+        
+    }
+
+    to{
+        top: 250px;
+    }
+}
+
+
+
+
+
+#front{
+    font-size: 50px;
+    top: 150px;
+    left: -200px;
+    animation-name: Front;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transform: rotate(3600deg);
+
+}
+
+@keyframes Front{
+
+    from{
+        left: -200px;
+        transform: rotate(360deg);
+
+    }
+    
+    to{
+        left: 5%;
+    }
+
+    100%{
+        background-color:brown;
+    }
+
+}
+
+
+#back{
+    font-size: 50px;
+    top: 150px;
+    right: -200px;
+    animation-name: Back;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transform: rotate(3600deg);
+
+}
+
+@keyframes Back{
+
+    from{
+        right: -200px;
+        transform: rotate(360deg);
+
+    }
+    
+    to{
+        right: 5%;
+    }
+
+    100%{
+        background-color:brown;
+    }
+
+}
+
+
+#front-end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#css{
+    
+    width: 120px;
+    height: 120px;
+    background-image: url("img/css.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 230px;
+    left: -200px;
+    animation-name: css;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+   
+    
+    
+}
+
+@keyframes css{
+    from{
+        left: -200px;
+        transform: rotateX(3600deg)
+    }
+
+    to{
+        left: 30%;
+    }
+}
+
+
+#htm{
+    
+    width: 110px;
+    height: 110px;
+    margin-left: 90px;
+    background-image: url("img/htm.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 230px;
+    left: -190px;
+    animation-name: htm;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+   
+    
+    
+}
+
+@keyframes htm{
+    from{
+        left: -190px;
+        transform: rotateX(3600deg)
+    }
+
+    to{
+        left: 20%;
+    }
+}
+
+
+#javas{
+    
+    width: 110px;
+    height: 110px;
+    margin-left: 190px;
+    background-image: url("img/js.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 230px;
+    left: -180px;
+    animation-name: js;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+   
+    
+    
+}
+
+@keyframes js{
+    from{
+        left: -200px;
+        transform: rotateX(3600deg)
+    }
+
+    to{
+        left: 40%;
+    }
+}
+
+#back-end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    right: 90px;
+}
+
+#py{
+    
+    width: 110px;
+    height: 110px;
+    margin-right: 110px;
+    background-image: url("img/py.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 230px;
+    right: -190px;
+    animation-name: py;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+   
+    
+    
+}
+
+@keyframes py{
+    from{
+        right: -200px;
+        transform: rotateX(3600deg)
+    }
+
+    to{
+        right: 40%;
+    }
+}
+
+
+#sql{
+    
+    width: 110px;
+    height: 110px;
+    background-image: url("img/sql.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 230px;
+    right: -190px;
+    animation-name: sql;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+   
+    
+    
+}
+
+@keyframes sql{
+    from{
+        right: -200px;
+        transform: rotateX(3600deg)
+    }
+
+    to{
+        right: 40%;
+    }
+}
+
